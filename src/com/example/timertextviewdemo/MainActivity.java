@@ -33,14 +33,14 @@ public class MainActivity extends Activity {
 			e.printStackTrace();
 			
 		}
-		//获得时间差,p j g wh 
+		//获得时间差
 		long diff = target.getTime() - now.getTime();
 		mTextView = (TimerTextView) findViewById(R.id.timerTextView);
 		//设置时间
 		mTextView.setTimes(diff);
 		
 		/**
-		 * 开始倒计时
+		 * 开始倒计时  开始倒计时
 		 */
 		if(!mTextView.isRun()){
 			mTextView.start();
