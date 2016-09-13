@@ -75,7 +75,7 @@ public class TimerTextView extends ViewGroup implements Runnable {
 	 * 将倒计时时间毫秒数转换为自身变量
 	 * 
 	 * @param time
-	 *            时间间隔毫秒数
+	 *            时间间隔毫秒数  时间间隔毫秒数
 	 */
 	public void setTimes(long time) {
 		//将毫秒数转化为时间
