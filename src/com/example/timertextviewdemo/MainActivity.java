@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 			e.printStackTrace();
 			
 		}
-		//获得时间差
+		//获得时间差,p j g wh 
 		long diff = target.getTime() - now.getTime();
 		mTextView = (TimerTextView) findViewById(R.id.timerTextView);
 		//设置时间
